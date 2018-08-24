@@ -1,3 +1,8 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="Srf" />
+  <dictionary name="Srf">
+    <words>
+      <w>gitignore</w>
+      <w>vagrantfile</w>
+    </words>
+  </dictionary>
 </component>
