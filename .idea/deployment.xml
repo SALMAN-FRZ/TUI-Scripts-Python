@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="139.59.65.128" deleteMissingItems="true" createEmptyFolders="true">
+    <serverData>
+      <paths name="139.59.65.128">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Console_Scripts_Python" local="$PROJECT_DIR$" web="/Console_Scripts_Python" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.vagrant" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.rnd" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

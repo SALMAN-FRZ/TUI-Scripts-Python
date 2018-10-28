@@ -319,5 +319,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Temporary Files
+/.rnd
+
 
 # End of https://www.gitignore.io/api/pydev,macos,linux,python,vagrant,windows,pycharm+all,jetbrains+all
