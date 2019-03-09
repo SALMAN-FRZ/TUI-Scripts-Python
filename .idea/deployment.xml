@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="139.59.65.128" deleteMissingItems="true" createEmptyFolders="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="DO" deleteMissingItems="true" createEmptyFolders="true">
     <serverData>
-      <paths name="139.59.65.128">
+      <paths name="DO">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/pycharm_project_282" local="$PROJECT_DIR$" />
+            <mapping deploy="/Console_Scripts_Python" local="$PROJECT_DIR$" web="/Console_Scripts_Python" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/.idea" />

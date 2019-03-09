@@ -1,8 +1,10 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="Srf">
+  <dictionary name="srf">
     <words>
-      <w>gitignore</w>
-      <w>vagrantfile</w>
+      <w>ansible</w>
+      <w>provisioners</w>
+      <w>virtualbox</w>
+      <w>workdir</w>
     </words>
   </dictionary>
 </component>
