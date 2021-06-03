@@ -1,4 +1,4 @@
-# Console Scripts Python
+# Python Console Scripts
 <a href="https://gitpod.io/#https://github.com/Baneeishaque/Console-Scripts-Python"><img src="https://icons-for-free.com/iconfiles/png/512/gitpod-1324440164066425542.png" alt="Gitpod IDE" width="100" height="100"></a>
 <a href="https://github1s.com/Baneeishaque/Console-Scripts-Python"><img src="https://raw.githubusercontent.com/conwnet/github1s/master/resources/images/logo.svg" alt="Github1s Editor" width="100" height="100"></a>
 
