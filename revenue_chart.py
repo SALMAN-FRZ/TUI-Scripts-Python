@@ -75,12 +75,14 @@ save_kwargs = {
 plt.savefig('revenue_growth_chart_hq.png', **save_kwargs)
 
 # Also save as PDF for vector graphics (scalable to any size without quality loss)
-plt.savefig('revenue_growth_chart_vector.pdf', 
-            bbox_inches='tight',
-            facecolor='white',
-            edgecolor='none',
-            format='pdf',
-            pad_inches=0.2)
+save_kwargs = {
+    'bbox_inches': 'tight',
+    'facecolor': 'white',
+    'edgecolor': 'none',
+    'format': 'pdf',
+    'pad_inches': 0.2
+}
+plt.savefig('revenue_growth_chart_vector.pdf', **save_kwargs)
 
 # Save as SVG for web use (also vector format)
 plt.savefig('revenue_growth_chart_vector.svg', 
