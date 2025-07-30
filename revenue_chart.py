@@ -64,13 +64,15 @@ for i, val in enumerate(data):
 plt.tight_layout()
 
 # Save with maximum quality settings
-plt.savefig('revenue_growth_chart_hq.png', 
-            dpi=300,                    # High DPI for crisp quality
-            bbox_inches='tight',        # Remove extra whitespace
-            facecolor='white',          # White background
-            edgecolor='none',           # No edge color
-            format='png',               # PNG format for lossless quality
-            pad_inches=0.2)             # Small padding
+save_kwargs = {
+    'dpi': 300,
+    'bbox_inches': 'tight',
+    'facecolor': 'white',
+    'edgecolor': 'none',
+    'format': 'png',
+    'pad_inches': 0.2
+}
+plt.savefig('revenue_growth_chart_hq.png', **save_kwargs)
 
 # Also save as PDF for vector graphics (scalable to any size without quality loss)
 plt.savefig('revenue_growth_chart_vector.pdf', 
