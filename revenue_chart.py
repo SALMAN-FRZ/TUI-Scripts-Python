@@ -7,9 +7,9 @@ plt.rcParams['figure.dpi'] = 300
 plt.rcParams['savefig.dpi'] = 300
 
 # Data from the chart
-labels = ['March', 'April', 'May', 'June', 'July', 'August (Proj.)']
-data = [0.8, 1.0, 1.2, 1.5, 2.1, 3.0]
-x_pos = np.arange(len(labels))
+LABELS = ['March', 'April', 'May', 'June', 'July', 'August (Proj.)']
+DATA = [0.8, 1.0, 1.2, 1.5, 2.1, 3.0]
+x_pos = np.arange(len(LABELS))
 
 # Colors from the energeticPlayfulPalette
 primary_color = '#4F46E5'
