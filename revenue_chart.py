@@ -41,10 +41,10 @@ ax.set_title("Monthly Sales Revenue Growth", fontsize=28, weight='bold',
              color=text_color, pad=30)
 ax.set_ylabel("Revenue in INR Lakhs", fontsize=18, color=neutral_color)
 ax.set_xticks(x_pos)
-ax.set_xticklabels(labels, fontsize=16, color=neutral_color)
+ax.set_xticklabels(labels, fontsize=16, color='black')
 
 # Increase tick label sizes
-ax.tick_params(axis='y', labelsize=14)
+ax.tick_params(axis='y', labelsize=14, colors='black')
 
 # Customize grid and spines
 ax.grid(color=grid_color, linewidth=1)
